@@ -1,0 +1,14 @@
+Font family:
+Raleway
+!------------- MAKE SURE TO INCLUDE THIS INTO WEBSITE --------------!
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+!------------- MAKE SURE TO INCLUDE THIS INTO WEBSITE --------------!
+
+Bacground color:
+#EEEEEE - light gray
+
+Main color: 
+#476072 - Dark blue
+
+#Second main color:
+##faba5a - Orange 

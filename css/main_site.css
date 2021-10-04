@@ -1,0 +1,55 @@
+main{
+    /* height: 100vh; */
+}
+
+.section-header{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #476072;
+}
+
+#main-section{
+    height: 11rem;
+}
+
+
+#contact-section{
+    background-color: #faba5a;
+    padding: 2.5rem 9rem;
+    position: relative;
+}
+
+#contact-section>#contacts-cnt{
+    margin-top: 2.5rem;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+}
+
+#contact-section>#contacts-cnt>.each-contact{
+    color: #476072;
+    font-weight: 600;
+    letter-spacing: .7px;
+    font-size: 1.22rem;
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+
+#contact-section>#contacts-cnt>.each-contact>.photo{
+    width: 13rem;
+    margin: 1rem auto;
+    height: 13rem;
+    border-radius: 50%;
+    background-image: url("../images/default.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#contact-section>#contacts-cnt>.each-contact>.email{
+    text-decoration: none;
+    color: #476072;
+
+}
