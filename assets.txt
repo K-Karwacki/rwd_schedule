@@ -10,5 +10,53 @@ Bacground color:
 Main color: 
 #476072 - Dark blue
 
-#Second main color:
-##faba5a - Orange 
+Second main color:
+#faba5a - Orange 
+
+!!! MAKE SURE TO INCLUDE THESE CSS FILES !!! 
+
+    base.css / header_and_footer.css
+
+!!! MAEK SURE TO INCLUDE HEADER AND FOOTER TAGS WITH PROPER IDS AND CLASSES !!!
+!!! REMEMBER TO CHANGE "href" TAG FOR PROPER REDIRECTION !!!
+####################################################
+<header>
+      <a href="" id="logo">MySchedule</a>
+      <div class="nav-cnt">
+        <a href="" class="nav-item">Calendar</a>
+        <a href="" class="nav-item">Courses</a>
+        <a href="" class="nav-item">SEP</a>
+        <a
+          href="#contact-section"
+          class="nav-item"
+          style="font-weight: 500; color: #faba5a"
+        >
+          Contact</a
+        >
+      </div>
+</header>
+####################################################
+
+####################################################
+<footer>
+      <span id="copyright-text">
+        Copyright &copy 2021 <br />
+        Horsens 8700, Danmark
+      </span>
+
+      <div class="nav-cnt">
+        <a href="" class="nav-item">Calendar</a>
+        <a href="" class="nav-item">Courses</a>
+        <a href="" class="nav-item">SEP</a>
+        <a
+          href="#contact-section"
+          class="nav-item"
+          style="font-weight: 500; color: #faba5a"
+        >
+          Contact</a
+        >
+      </div>
+</footer>
+####################################################
+
+

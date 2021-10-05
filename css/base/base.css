@@ -10,3 +10,13 @@ body{
     font-family: 'Raleway';
     overflow-x: hidden;
 }
+
+.section-header{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #476072;
+}
+
+main>section{
+    padding: 2.2rem 9rem;
+}
