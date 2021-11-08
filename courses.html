@@ -4,52 +4,130 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" />
     <link rel="stylesheet" href="./css/base/base.css" />
     <link rel="stylesheet" href="./css/base/header_and_footer.css" />
     <link rel="stylesheet" href="./css/courses_site.css" />
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css" />
+
     <title>Courses</title>
   </head>
-  <body>
-    <header>
-      <a href="index.html" id="logo">MySchedule</a>
-      <div class="nav-cnt">
-        <a href="calendar.html" class="nav-item">Calendar</a>
-        <a href="" class="nav-item">Courses</a>
-        <a href="sep.html" class="nav-item">SEP</a>
-        <a
-          href="index.html#contact-section"
-          class="nav-item"
-          style="font-weight: 500; color: #faba5a"
-        >
-          Contact</a
-        >
-      </div>
-    </header>
+  <body class="d-flex flex-column justify-content-between" style="height: 100vh">
+    <header class="px-4 py-2 px-md-5">
+      <nav class="navbar navbar-expand-md px-md-5 py-0">
+        <a href="index.html" class="navbar-brand p-0 m-0 sm-py-2" id="logo">MySchedule</a>
 
+        <button
+          class="navbar-toggler collapsed p-0 init"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navBarItems"
+          aria-controls="navBarItems"
+          aria-expanded="false"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end mt-3 mt-md-0" id="navBarItems">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="./calendar.html" class="nav-link a-link-nav">Calendar</a></li>
+            <li class="nav-item"><a href="./courses.html" class="nav-link a-link-nav">Courses</a></li>
+            <li class="nav-item"><a href="./sep.html" class="nav-link a-link-nav">SEP</a></li>
+            <li class="nav-item"><a href="./contact.html" class="nav-link a-link-nav">Contact</a></li>
+          </ul>
+        </div>
+        <!-- <div class="container-fluid px-0"> -->
+        <!-- </div> -->
+      </nav>
+      <!-- <a href="" id="logo">MySchedule</a> -->
+      <!-- <div class="nav-cnt">
+        <a href="calendar.html" class="nav-item">Calendar</a>
+        <a href="courses.html" class="nav-item">Courses</a>
+        <a href="sep.html" class="nav-item">SEP</a>
+        <a href="#contact-section" class="nav-item" style="font-weight: 500; color: #faba5a"> Contact</a>
+      </div> -->
+    </header>
     <main>
-      <section id="courses-section">
-        <span class="section-header">Courses</span>
+      <section id="courses-section" class="px-4 px-md-5 mx-md-5">
+        <span class="section-header d-block mb-4 mt-4 mt-lg-0">Courses</span>
+
+        <div id="courses-cards-cnt" class="d-flex flex-column flex-lg-row justify-content-between">
+          <div class="card me-lg-3 mb-3 mb-lg-0" id="rwd-course">
+            <span class="course-name" style="background-color: #4b486b">RWD</span>
+            <div class="course-desc-content">
+              <span class="course-header">Description:</span>
+              <p class="course-description">
+                RWD stands for Responsive Web Design. As the name suggests it is a courses it which you learn how to create, design and
+                implement responsive Websites.
+              </p>
+            </div>
+            <div class="course-teacher-content">
+              <span class="course-header">Teacher:</span>
+              <span class="teacher-name">Line Lindhardt Egsgaard</span>
+            </div>
+          </div>
+
+          <div class="card me-lg-3 mb-3 mb-lg-0" id="sdj-course">
+            <span class="course-name" style="background-color: #486b4a">SDJ</span>
+            <div class="course-desc-content">
+              <span class="course-header">Description:</span>
+              <p class="course-description">
+                SDJ is a course in which you learn about the programming language Java. You learn how to write code in Java and understand
+                it.
+              </p>
+            </div>
+            <div class="course-teacher-content">
+              <span class="course-header">Teacher:</span>
+              <span class="teacher-name">Klaus Bøgestrand and Steffen Vissing Andersen</span>
+            </div>
+          </div>
+
+          <div class="card me-lg-3 mb-3 mb-lg-0" id="sep-course">
+            <span class="course-name" style="background-color: #6b4848">SEP</span>
+            <div class="course-desc-content">
+              <span class="course-header">Description:</span>
+              <p class="course-description">
+                SEP is orientated towards PBL – Problem Based Learning. In the SEP course you will learn how to work in a team to conquer
+                the challenge while documenting and implementing it like a professional.
+              </p>
+            </div>
+            <div class="course-teacher-content">
+              <span class="course-header">Teacher:</span>
+              <span class="teacher-name">Mona Wendel Andersen</span>
+            </div>
+          </div>
+
+          <div class="card mb-3 mb-lg-0" id="dma-course">
+            <span class="course-name" style="background-color: #485b6b">DMA</span>
+            <div class="course-desc-content">
+              <span class="course-header">Description:</span>
+              <p class="course-description">
+                DMA stands for Discrete Mathematics and Algorithms.There is a lot of stuff to learn in this course such as arithmetics,
+                number systems, functions, sequences, sumations and much more.
+              </p>
+            </div>
+            <div class="course-teacher-content">
+              <span class="course-header">Teacher:</span>
+              <span class="teacher-name">Io Odderskov</span>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
-    <footer>
-      <span id="copyright-text">
+    <footer class="d-flex flex-column flex-md-row-reverse text-center justify-content-between align-items-center px-4 py-2 px-md-5">
+      <div class="nav-cnt px-md-5">
+        <a href="calendar.html" class="nav-item">Calendar</a>
+        <a href="courses.html" class="nav-item">Courses</a>
+        <a href="sep.html" class="nav-item">SEP</a>
+        <a href="contact.html" class="nav-item"> Contact</a>
+      </div>
+
+      <span id="copyright-text" class="mt-2 px-md-5 w-auto mb-md-0">
         Copyright &copy 2021 <br />
         Horsens 8700, Danmark
       </span>
-
-      <div class="nav-cnt">
-        <a href="calendar.html" class="nav-item">Calendar</a>
-        <a href="" class="nav-item">Courses</a>
-        <a href="sep.html" class="nav-item">SEP</a>
-        <a
-          href="index.html#contact-section"
-          class="nav-item"
-          style="font-weight: 500; color: #faba5a"
-        >
-          Contact</a
-        >
-      </div>
     </footer>
+    <script src="./scripts/bootstrap/bootstrap.min.js"></script>
   </body>
 </html>

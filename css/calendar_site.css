@@ -1,0 +1,77 @@
+table, th {
+    border: 1px solid lightgray;
+    border-collapse:collapse;
+}
+
+.Borders {
+    border: 3px solid lightgray;
+    border-collapse:collapse;
+}
+
+.HideBorders{
+    border-style: none;
+}
+
+.SetWidth{
+    width: 20%;
+}
+
+.SetHeight{
+    height: 40px;
+}
+
+.SetHighHeight{
+    height: 230px;
+}
+
+#RWD, #SDJ, #SEP, #DMA, #WS {
+    color: #cfcfcf;
+    border: 3px solid transparent;
+    border-radius: 5px;
+    border-collapse:separate;
+    border-color:rgb(70, 70, 70);
+}
+
+#RWD {
+    background-color:#4b486b;
+}
+#SDJ {
+    background-color: #486b4a;
+}
+#SEP {
+    background-color: #6b4848;
+}
+#DMA {
+    background-color: #485b6b;
+}
+#WS {
+    background-color: rgb(88, 41, 61);
+}
+.clear{
+    border-radius: initial !important;
+    border:none !important;
+}
+
+#mobile-calendar>.day-sessions-cnt{
+    margin-bottom: 1.2rem;
+    border: 2px solid #476072;
+    border-radius: 5px;
+}
+
+#mobile-calendar>.day-sessions-cnt:last-child{
+    margin-bottom: 0;
+}
+
+#mobile-calendar>.day-sessions-cnt>.day-sessions-indicator{
+    background-color: #476072;
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: .5rem .3rem;
+    color: #EEEEEE;
+    font-weight: 500;
+}
+
+#mobile-calendar>.day-sessions-cnt>.session-cnt{
+    padding: .4rem .3rem;
+}

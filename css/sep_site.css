@@ -1,0 +1,33 @@
+#sep-description{
+    /* margin-top: 2.2rem; */
+    /* padding: 3rem 6rem; */
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    font-size: 1.2rem;
+    /* line-height: 30px; */
+    /* border: 3px solid #476072; */
+    border: 3px solid #476072;
+    /* padding-left: 1rem; */
+}
+
+#sep-shorthand{
+    font-size: 2.7rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+#sep-shorthand>span{
+    font-size: 40%;
+    font-weight: 400;
+}
+
+@media (max-width:768px){
+    #sep-shorthand{
+        font-size: 2.3rem;
+    }
+
+    #sep-description{
+        font-size: 1rem;
+    }
+}

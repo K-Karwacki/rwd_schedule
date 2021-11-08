@@ -1,0 +1,32 @@
+<schedule>
+    <session class="session-cnt" from-hour="7" from-minute="40" to-hour="10" to-minute="15" date="10.6.2021">
+        <time>7:40 - 10:15</time>
+        <teacher>Lilka</teacher>
+        <classrom>C05.16</classrom>
+        <whatsession>RWD</whatsession>
+    </session>
+    <session class="session-cnt" from-hour="10" from-minute="30" to-hour="16" to-minute="45" date="10.6.2021">
+        <time>7:40 - 10:15</time>
+        <teacher>Lilka</teacher>
+        <classrom>C05.16</classrom>
+        <whatsession>RWD</whatsession>
+    </session>
+    <session class="session-cnt" from-hour="11" from-minute="15" to-hour="12" to-minute="45" date="10.7.2021">
+        <time>7:40 - 10:15</time>
+        <teacher>Lilka</teacher>
+        <classrom>C05.16</classrom>
+        <whatsession>RWD</whatsession>
+    </session>
+    <session class="session-cnt" from-hour="9" from-minute="40" to-hour="10" to-minute="15" date="10.8.2021">
+        <time>7:40 - 10:15</time>
+        <teacher>Lilka</teacher>
+        <classrom>C05.16</classrom>
+        <whatsession>RWD</whatsession>
+    </session>
+    <session class="session-cnt" from-hour="8" from-minute="40" to-hour="10" to-minute="15" date="10.8.2021">
+        <time>7:40 - 10:15</time>
+        <teacher>Lilka</teacher>
+        <classrom>C05.16</classrom>
+        <whatsession>RWD</whatsession>
+    </session>
+</schedule>

@@ -5,56 +5,123 @@ main{
 
 
 #main-section{
+    /* overflow: auto; */
     /* height: 20rem; */
-    /* padding: 2.5rem 9rem; */
+    /* height: 50rem; */
+    /* padding: 2.5rem 7rem; */
 }
-
-
-#contact-section{
-    background-color: #faba5a;
-    /* padding: 2.5rem 9rem; */
-    position: relative;
-}
-
-#contact-section>#contacts-cnt{
-    margin-top: 2.5rem;
+table{
     width: 100%;
-    position: relative;
-    overflow: auto;
+    border-collapse: collapse;
+
 }
 
-#contact-section>#contacts-cnt>.each-contact{
-    color: #476072;
-    font-weight: 600;
-    letter-spacing: .7px;
-    font-size: 1.22rem;
-    width: 25%;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
+
+table#time-table>#time-table-upcoming-date-row{
+    width: 100%;
+}
+ 
+#main-section>#upcoming-sessions-cnt{
+    /* height: 27rem; */
+    /* margin-top: 1.9rem; */
+    width: 50%;
     float: left;
 }
 
-#contact-section>#contacts-cnt>.each-contact>.photo{
-    width: 13rem;
-    margin: 1rem auto;
-    height: 13rem;
-    border-radius: 50%;
-    background-image: url("../images/default.png");
-    background-position: center;
-    background-size: cover;
-    opacity: .9;
-    box-shadow: 0px 0px 8px rgba(95, 95, 95, 0.541);
+.section-header{
+    text-align: left;
+    width: 100%;
+    display: block;
+    margin-bottom: 1.5rem;
 }
 
-#contact-section>#contacts-cnt>.each-contact>.email{
-    text-decoration: none;
-    color: #476072;
-    transition: all .3s ease-out;
-    clear: both;
-    display: inline-block;
+tr#time-table-upcoming-date-row>th{
+    border: 1px solid rgb(126, 126, 126);
 }
-#contact-section>#contacts-cnt>.each-contact>.email:hover{
-    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.623);
-    transform: translateY(-15%);
+tr#time-table-upcoming-date-row>th#upcoming-week{
+    height: 30px;
+    width: 12%;
+    text-align: center;
+    background-color: rgb(201, 201, 201);
+    font-weight: 500;
 }
+
+tr#time-table-upcoming-date-row>th#upcoming-day{
+    background-color: rgb(230, 230, 230);
+    font-size: 1.1rem;
+    font-weight: 500;
+
+}
+
+.which-hour,.place-for-session{
+    height: 6px;
+    /* max-width: 2px; */
+    position: relative;
+    border: 1px solid rgb(126, 126, 126);
+}
+.place-for-session>table{
+    position: relative;
+    top: 0;
+    background-color: black;
+    height: 90%;
+    width: 70%;
+    margin: 0 auto;
+}
+#SEP {
+    background-color: rgb(181, 195, 247);
+    border: 2px solid black;
+    border-radius: 7px;
+    border-collapse: separate;
+    border-color:rgb(140, 153, 231);
+}
+.which-hour{
+    height: 15px;
+    width: 77px;
+    background-color: rgb(230, 230, 230);
+    font-weight: 500;
+
+}
+#news-section>.section-header{
+    text-align: center;
+}
+
+#news-section{
+    float: right;
+    position: relative;
+    width: 37%;
+    height: inherit;
+    /* background-color: black; */
+}
+
+.news-content{
+    text-align: justify;
+    /* margin-top: 6rem; */
+}
+/*
+#main-section>#upcoming-sessions-cnt>#time-table>.time-cnt{
+    line-height: 2.45rem;
+    position: relative;
+}
+
+#main-section>#upcoming-sessions-cnt>#time-table>.time-cnt::before{
+    content: '';
+    position: absolute;
+    background-color: black;
+    height: .05rem;
+    width: 90%;
+    top: 50%;
+    left: 3rem;
+}   
+
+#main-section>#upcoming-sessions-cnt>#time-table{
+    position: relative;
+}
+
+#main-section>#upcomin-session-cnt>#time-table>.session-cnt{
+    position: absolute;
+}
+
+ */
+
+
+
